@@ -8,8 +8,8 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
+  font-family: var(--primary-font-family);
+  color: var(--primary-color);
 }
 
 .link {
@@ -49,6 +49,10 @@ body {
   color: var(--accent-color);
 }
 
+.nav-list-item.current {
+  color: var(--accent-color);
+}
+
 .contacts-list {
   font-weight: 500;
   font-size: 14px;
@@ -59,12 +63,25 @@ body {
 
 /* =====FOOTER===== */
 
+.footer {
+  background-color: #2F303A;
+}
+
+.logo-footer {
+  font-family: var(--logo-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
 .contacts-address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: #FFFFFF; */
+  color: #FFFFFF;
 }
 
 .contacts-mail-tel {
@@ -72,7 +89,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .contacts-address:hover,
@@ -83,6 +100,9 @@ body {
 }
 
 /* =====HERO===== */
+.hero {
+  background-color: #2F303A;
+}
 
 .hero-title {
   font-weight: 900;
@@ -91,7 +111,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: #FFFFFF; */
+  color: #FFFFFF;
 }
 
 .hero-button {
@@ -104,7 +124,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  /* color: #FFFFFF; */
+  color: #FFFFFF;
+  background-color: #2196F3;
 }
 
 /* =====ADVANTAGES===== */
@@ -133,6 +154,10 @@ body {
 }
 
 /* =====TEAM===== */
+
+.team {
+  background-color: #F5F4FA;
+}
 
 .team-title {
   font-size: 36px;
@@ -168,6 +193,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-color);
   cursor: pointer;
+  background-color: #F5F4FA;
 }
 
 .out-work-btn:hover,
@@ -180,6 +206,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--primary-color);
 }
 
 .out-work-text {
